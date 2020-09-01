@@ -1,0 +1,25 @@
+.background {
+    height: 90vh;
+    background-image: url("../../images/montlakebridge.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.logo {
+    color: white;
+}
+
+.textrow {
+    padding-top: 30px;
+}
+
+.logorow {
+    padding-top: 30px;
+    /* padding-bottom: 20px; */
+}
+
+.tagline {
+    padding-top: 30px;
+}
