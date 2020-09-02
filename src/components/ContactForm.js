@@ -40,7 +40,7 @@ function ContactForm() {
     setServerState({ submitting: true });
     axios({
       method: "POST",
-      url: "https://formspree.io/YOUR_EMAIL_HERE",
+      url: "https://formspree.io/mrgywvad",
       data: inputs
     })
       .then(r => {
@@ -85,6 +85,7 @@ function ContactForm() {
           className="form-control"
           id="message"
           name="message"
+          required
           onChange={handleOnChange}
           value={inputs.message}
         ></textarea>

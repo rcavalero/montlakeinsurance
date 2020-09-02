@@ -4,7 +4,7 @@ import ContactForm from '../components/ContactForm';
 
 function Contact() {
     return (
-            <div className="container flex">
+            <div className= "container mt-3">
                 <ContactForm />
         </div>
     )
