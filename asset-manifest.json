@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/montlakeinsurance/static/css/main.51bb1369.chunk.css",
+    "main.js": "/montlakeinsurance/static/js/main.0ee47fe4.chunk.js",
+    "main.js.map": "/montlakeinsurance/static/js/main.0ee47fe4.chunk.js.map",
+    "runtime-main.js": "/montlakeinsurance/static/js/runtime-main.afdacced.js",
+    "runtime-main.js.map": "/montlakeinsurance/static/js/runtime-main.afdacced.js.map",
+    "static/js/2.f047bc3b.chunk.js": "/montlakeinsurance/static/js/2.f047bc3b.chunk.js",
+    "static/js/2.f047bc3b.chunk.js.map": "/montlakeinsurance/static/js/2.f047bc3b.chunk.js.map",
+    "index.html": "/montlakeinsurance/index.html",
+    "precache-manifest.c0deb9786e3658b2e985b8056555c883.js": "/montlakeinsurance/precache-manifest.c0deb9786e3658b2e985b8056555c883.js",
+    "service-worker.js": "/montlakeinsurance/service-worker.js",
+    "static/css/main.51bb1369.chunk.css.map": "/montlakeinsurance/static/css/main.51bb1369.chunk.css.map",
+    "static/js/2.f047bc3b.chunk.js.LICENSE.txt": "/montlakeinsurance/static/js/2.f047bc3b.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/montlakeinsurance/static/media/montlakebridge.c0339ae6.png",
+    "static/media/montlakeinsgrplogo.png": "/montlakeinsurance/static/media/montlakeinsgrplogo.b708c666.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.afdacced.js",
+    "static/js/2.f047bc3b.chunk.js",
+    "static/css/main.51bb1369.chunk.css",
+    "static/js/main.0ee47fe4.chunk.js"
+  ]
+}
