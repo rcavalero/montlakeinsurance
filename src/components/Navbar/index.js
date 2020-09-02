@@ -27,7 +27,7 @@ function Navbar() {
 
           {/* </div> */}
 
-          <div className="col-md-5 col-lg-4">
+          <div className="col-md-5 col-lg-2">
             <div className="container navCont h-100 flex-row navbar-nav justify-content-center justify-content-between">
               <Link
                 to="/"
@@ -40,12 +40,12 @@ function Navbar() {
                 Home
             </Link>
 
-            <Link
+            {/* <Link
               to="/home2"
               className={window.location.pathname === "/home2" ? "nav-link active" : "nav-link"}
             >
               Home2
-            </Link>
+            </Link> */}
 
             <Link
               to="/Contact"
