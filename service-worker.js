@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/montlakeinsurance/precache-manifest.cec41dcebf0ac822ab289f285a13b78e.js"
+  "/montlakeinsurance/precache-manifest.31092a5915e420402d7db6109e391fc2.js"
 );
 
 self.addEventListener('message', (event) => {
