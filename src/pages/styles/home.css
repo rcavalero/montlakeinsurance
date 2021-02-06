@@ -1,6 +1,6 @@
 .background {
     height: 90vh;
-    background-image: url("../../images/montlakebridge.png");
+    background-image: url("../../images/montlakebridgeblue.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -15,12 +15,24 @@
     padding-top: 30px;
 }
 
-.logorow {
-    padding-top: 30px;
+.compname {
+    padding-top: 70px;
     /* padding-bottom: 20px; */
 }
 
+.comp-text {
+    color: rgb(16, 78, 103);
+    font-weight: 800;
+
+}
+
 .tagline {
-    padding-top: 30px;
+    /* padding-top: 30px; */
     /* font-family: hypatia-sans-pro; */
+}
+
+.tag-text {
+    color: rgb(16, 78, 103);
+    font-weight: 800;
+
 }

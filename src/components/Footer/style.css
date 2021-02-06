@@ -1,13 +1,10 @@
-.navbar {
+.footercontent {
     background-color: white;
-    margin-bottom: 0;
-    height: 10vh;
-
 }
 
-.nav-link {
+.foot-text {
     color: rgb(16, 78, 103);
-    font-size: larger;
+    /* font-size: larger; */
     font-weight: 800;
 
 }

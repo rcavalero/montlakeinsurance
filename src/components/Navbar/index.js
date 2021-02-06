@@ -10,8 +10,39 @@ function Navbar() {
 
       <div className="container">
         <div className="row w-100">
-          <div className="col-sm-12 col-md-3 col-lg-8 h100 margin-auto">
-            <div className="container navCont navLogo h-100 pr-3 flex-row navbar-nav align-items-center">
+
+        <div className="col-md-5 col-lg-4">
+            <div className="container navCont h-100 flex-row navbar-nav fs-2 fw-bold justify-content-center justify-content-between">
+              <Link
+                to="/"
+                className={
+                  window.location.pathname === "/" || window.location.pathname === "/home"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                Home
+            </Link>
+
+            {/* <Link
+              to="/home2"
+              className={window.location.pathname === "/home2" ? "nav-link active" : "nav-link"}
+            >
+              Home2
+            </Link> */}
+
+            <Link
+              to="/About"
+              className={window.location.pathname === "/About" ? "nav-link active" : "nav-link"}
+            >
+              Who We Are
+            </Link>
+
+            </div>
+          </div>
+
+          <div className="col-sm-12 col-md-3 col-lg-4 h100 margin-auto">
+            <div className="container navCont navLogo h-100 pr-3 flex-row navbar-nav justify-content-center align-items-center">
               {/* <p className = "text-light m-0"> */}
                 {/* This will become the logo */}
                 <img src={require("../../images/montlakeinsgrplogonav.png")} className="logo" alt="MontlakeLogo"></img>
@@ -27,17 +58,17 @@ function Navbar() {
 
           {/* </div> */}
 
-          <div className="col-md-5 col-lg-2">
+          <div className="col-md-5 col-lg-4">
             <div className="container navCont h-100 flex-row navbar-nav justify-content-center justify-content-between">
               <Link
-                to="/"
+                to="/What"
                 className={
-                  window.location.pathname === "/" || window.location.pathname === "/home"
+                  window.location.pathname === "/" || window.location.pathname === "/What"
                     ? "nav-link active"
                     : "nav-link"
                 }
               >
-                Home
+                What We Do
             </Link>
 
             {/* <Link

@@ -1,0 +1,13 @@
+.colorbackground {
+    height: 90vh;
+    background-color: rgb(201, 234, 249);
+    background-size: 100% 100%;
+
+}
+
+.card-text {
+    color: rgb(16, 78, 103);
+    font-weight: 600;
+
+}
+

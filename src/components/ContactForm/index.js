@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./style.css"
+
 
 function ContactForm() {
   /* NEW: Input state handling vvvv */
@@ -52,11 +54,11 @@ function ContactForm() {
   };
 
   return (
-    <div className="container w-50">
-      <h1 className = "text-center">Contact Us</h1>
+    <div className="container w-50 pt-5">
+      <h1 className = "text-center contact-text">Contact Us</h1>
       <form onSubmit={handleOnSubmit}>
       <div className="form-group">
-      <label htmlFor="name">Name:</label>
+      <label className="contact-text" htmlFor="name">Name:</label>
         <input
           className="form-control"
           id="name"
@@ -68,7 +70,7 @@ function ContactForm() {
         />
         </div>
         <div className="form-group">
-        <label htmlFor="email">Email:</label>
+        <label className="contact-text" htmlFor="email">Email:</label>
         <input
           className="form-control"
           id="email"
@@ -80,7 +82,7 @@ function ContactForm() {
         />
         </div>
         <div className="form-group">
-        <label htmlFor="message">Message:</label>
+        <label className="contact-text" htmlFor="message">Message:</label>
         <textarea
           className="form-control"
           id="message"
